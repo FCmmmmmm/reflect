@@ -3,6 +3,15 @@ package com;
 public class People {
 	public String name;
 	private String desc;
+	
+	public People() {
+		super();
+	}
+	private People(String name, String desc) {
+		super();
+		this.name = name;
+		this.desc = desc;
+	}
 	public String getName() {
 		return name;
 	}
